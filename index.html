@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Steps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="img/urbansteps.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top ">
+      <div class="container">
+        <a class="navbar-brand w-50" href="index.html"><p class="text-white m-0 h3 fw-bold">URBAN</p><p class="text-primary m-0 h3 fw-bold">STEPS</p></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"    aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Carrusel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active"> 
+            <img src="img/zapatilla1.png" class="d-block w-100" alt="carrusel">
+            <div class="carousel-caption text-start top-0 titulo-carrusel zapatilla">
+            <h5>RENDIMIENTO</h5><h5 id="paso">EN CADA PASO</h5>
+            <p>Comodidad y tecnologia para superar tus limites</p>
+            <a class="btn btn-primary btn-lg inicio" href="tienda.html" role="button">Ver Deportivas</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/zapatilla2.png" class="d-block w-100" alt="carrusel2">
+            <div class="carousel-caption text-start top-0 titulo-carrusel zapatilla">
+            <h5>HAZ QUE TU</h5><h5 id="destaque">ESTILO DESTAQUE</h5>
+            <p>Diseños Urbanos para quienes marcan la diferencia </p>
+            <a class="btn btn-lg btn-danger inicio" href="tienda.html" role="button">Ver Urbanas</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/zapatilla3.png" class="d-block w-100" alt="carrusel3">
+          <div class="carousel-caption text-start top-0 titulo-carrusel zapatilla">
+          <h5>UN CLÁSICO QUE</h5><h5 id="moda">NUNCA PASA DE MODA</h5>
+          <p>Zapatillas cómodas y vérsatiles para todos los dias</p>
+          <a class="btn btn-success btn-lg inicio" href="tienda.html" role="button">Ver Clásicas</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/zapatilla4.png" class="d-block w-100" alt="carrusel4">
+          <div class="carousel-caption text-start top-0 titulo-carrusel zapatilla">
+          <h5>DOMINA CADA</h5><h5 id="movimiento">MOVIMIENTO</h5>
+          <p>Un modelo exclusivo dentro y afuera de la cancha</p>
+          <a class="btn btn-purple btn-lg inicio" href="tienda.html" id="limitada">Ver Edición Limitada</a>
+        </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- ¿Porqué elegirnos elegirnos? -->
+    <div class="container my-4">
+      <div class="text-center">
+        <h1>¿POR QUÉ ELEGIRNOS?</h1>
+      </div>
+      <div class="row g-4 mt-1">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="p-4 border bg-light text-center rounded-3">
+            <i class="bi bi-shield-check fs-1 text-dark"></i>
+            <h3>CALIDAD PREMIUM</h3>
+            <p>Trabajamos con las mejores marcas para ofrecerte la máxima claidad</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="p-4 border bg-light text-center rounded-3 h-100">
+            <i class="bi bi-truck fs-1 text-dark"></i>
+            <h3 >ENVÍOS RÁPIDOS</h3>
+            <p class="lead">Entregas seguras y rápidas a todo el país</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="p-4 border bg-light text-center rounded-3 h-100">
+            <i class="bi bi-headset fs-1 text-dark"></i>
+            <h3>ATENCION 24/7</h3>
+            <p>Estamos siempre listos para ayudarte en lo que necesites</p>
+          </div>
+        </div>
+      </div>
+     </div>
+    <!-- Pie de página -->
+    <footer class="bg-black text-white">
+      <div class="pie">
+        <!-- Whatsapp -->
+        <div class="whatsapp mt-3">
+          <h4 class="mb-0"><i class="bi bi-whatsapp text-success mx-1"></i>Whatsapp <br></h4>
+          <p>+51 987 654 321</p>
+        </div>
+        <!-- Correo -->
+         <div class="correo mt-3">
+          <h4 class="mb-0"><i class="bi bi-envelope mx-1"></i>Correo</h4>
+          <p>contacto@urbansteps.com</p>
+         </div>
+        <!-- Redes -->
+         <div class="redes">
+          <h4 class="h6">Siguenos</h4>
+          <a href="" class="text-light"><i class="bi bi-instagram"></i></a>
+          <a href="" class="text-light"><i class="bi bi-facebook"></i></a>
+          <a href="" class="text-light"><i class="bi bi-tiktok"></i></a>
+         </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+#paso{
+    color: #1561DC;
+}
+#destaque{
+    color: #CF1313;
+}
+#moda{
+    color: #68A84A;
+}
+#movimiento{
+    color: #623DA0;
+}
+.titulo-carrusel{
+    width: 600px;
+}
+.titulo-carrusel h5{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.titulo-carrusel p{
+    width: 300px;
+}
+.btn-purple{
+    background-color: #623DA0;
+    color: white;
+}
+.bg-purple{
+    background-color: #623DA0;
+    color: white;
+}
+.btn-purple:hover {
+  background-color: #59359a;
+  color: white;
+}
+.pie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nosotros{
+    margin-top: 58px;
+}
+.whatsapp{
+    margin-left: 50px;
+}
+.redes{
+    margin-right: 80px;
+}
+.redes a{
+    margin-top: 1px;
+    padding: 5px;
+}
+.redes a:hover{
+    color: white;
+    background-color: gray;
+    width: 2px;
+    height: 2px;
+    border-radius: 25%;
+}
+.scrollspy-example{
+    position: relative;
+    height: 350px;
+    overflow-y: scroll;
+}
+.titulo-producto{
+    min-height: 60px;
+}
+.bi-tags-fill, .camion, .bi-building, .bi-calendar, .bi-clock{
+    background-color: #198754;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 3px;
+    font-size: 1.6rem;
+}
+.bi-calendar-check, .bi-fire, .bi-star, .regalo, .bi-file-earmark{
+    background-color: #ffc107;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 3px;
+    font-size: 1.6rem;
+}
+.personas{
+    background-color: #adb5bd;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 3px;
+    font-size: 1.6rem;
+}
+.bi-person-walking, .bi-percent, .fuego, .bi-people, .bi-wrench-adjustable{
+    background-color: #0d6efd;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 3px;
+    font-size: 1.6rem;
+}
+.acordeon{
+    margin-bottom: 42px;
+}
+.zapatilla{
+    margin-top: 120px;
+}
+/* TABLET */
+@media(min-width: 768px) and (max-width: 1024px){
+    .titulo-carrusel{
+    width: 300px;
+    }
+    .titulo-carrusel h5{
+        font-size: 1.5rem;
+    }
+    .titulo-carrusel p{
+        width: 200px;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    .pie{
+        font-size: 0.7rem;
+    }
+    #nosotros{
+        margin-top: 900x;
+    }
+    .pie h4{
+        font-size: 0.9rem;
+    }
+    .zapatilla{
+        margin-top: 0;
+    }
+}
+/* CELULAR */
+@media(max-width:767.98px) {
+    .titulo-carrusel h5{
+        font-size: 1rem;
+    }
+    .titulo-carrusel p{
+        font-size: 0.7rem;
+        width: 150px;
+        margin-bottom: 0;
+    }
+    .whatsapp{
+        margin-left: 11px;
+    }
+    .whatsapp p{
+        padding-left: 10px;
+    }
+    .pie p{
+        font-size: 0.78rem;
+    }
+    .pie h4{
+        font-size: 0.9rem;
+    }
+    .correo p{
+        padding-left: 10px;
+    }
+    .redes{
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+    .acordeon{
+    margin-bottom: 0px;
+    }
+    .bi-tags-fill, .camion, .bi-building, .bi-calendar, .bi-clock{
+    background-color: #198754;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 3px;
+    font-size: 1.6rem;
+    }
+    .bi-calendar-check, .bi-fire, .bi-star, .regalo, .bi-file-earmark{
+    background-color: #ffc107;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 3px;
+    font-size: 1.1rem;
+    }
+    .personas{
+    background-color: #adb5bd;
+    width: 70px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 3px;
+    font-size: 1.8rem;
+    }
+    .bi-person-walking, .bi-percent, .fuego, .bi-people, .bi-wrench-adjustable{
+    background-color: #0d6efd;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 3px;
+    font-size: 1.6rem;
+    }
+    .inicio{
+        font-size: 0.8rem;
+    }
+    .zapatilla{
+        margin-top: 0;
+    }
+}
